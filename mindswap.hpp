@@ -13,7 +13,7 @@ namespace mindswap {
     /**
      * pair
      */
-    struct [[table]] stat_row {
+    struct [[eosio::table]] stat_row {
         asset           supply;
         asset           max_supply;
         name            issuer;
