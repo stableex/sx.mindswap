@@ -6,8 +6,8 @@ namespace mindswap {
 
     using namespace eosio;
 
-    const name id = "mindswap"_n;
-    const name code = "mindswapswap"_n;
+    constexpr name id = "mindswap"_n;
+    constexpr name code = "mindswapswap"_n;
     const std::string description = "Mindswap Converter";
 
     /**
